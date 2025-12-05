@@ -8,12 +8,6 @@ const routes = [
     path: '/',
     name: 'Home',
   },
-{
-  path: '/attendance',
-  name: 'Attendance',
-  component: () => import('@/pages/attendance/AttendanceView.vue'),
-},
-
   {
     path: '/notifications',
     name: 'Notifications',
@@ -89,6 +83,11 @@ const routes = [
     path: '/call-logs/view/:viewType?',
     name: 'Call Logs',
     component: () => import('@/pages/CallLogs.vue'),
+  },
+  {
+    path: '/calendar',
+    name: 'Calendar',
+    component: () => import('@/pages/Calendar.vue'),
   },
   {
     path: '/welcome',

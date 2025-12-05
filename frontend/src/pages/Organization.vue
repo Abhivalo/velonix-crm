@@ -256,7 +256,7 @@ const breadcrumbs = computed(() => {
     let view = getView(
       route.query.view,
       route.query.viewType,
-      'CRM Organization'
+      'CRM Organization',
     )
     if (view) {
       items.push({
