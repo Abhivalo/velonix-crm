@@ -22,6 +22,17 @@ add_to_apps_screen = [
 	}
 ]
 
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [["dt", "=", "CRM Lead"]]
+    },
+    {
+        "dt": "Property Setter",
+        "filters": [["doc_type", "=", "CRM Lead"]]
+    }
+]
+
 export_python_type_annotations = True
 
 # Includes in <head>
